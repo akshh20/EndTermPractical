@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function NameInput() {
   const [name, setName] = useState("");
@@ -9,9 +9,10 @@ function NameInput() {
 
       <input
         type="text"
-        placeholder="Type your name..."
+        placeholder="akshat jain"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={(e) =>
+           setName(e.target.value)}
         style={{ padding: "10px", fontSize: "16px" }}
       />
 
